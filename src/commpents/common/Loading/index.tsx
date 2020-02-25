@@ -4,7 +4,7 @@ import classes from './index.module.scss';
 export const PageLoading = () => {
     return (
         <div className={classes.loadingContainer}>
-            <div className="line-scale">
+            <div className={classes.lineScale}>
                 <div />
                 <div />
                 <div />

@@ -1,22 +1,23 @@
 import ReactDOM from "react-dom";
 import React from "react";
-// import {Layout} from 'antd'
-import {HashRouter} from "react-router-dom";
-import Router from "./pages/Router";
-import {LayoutComponent} from "./pages/Layout";
 
+import {HashRouter, Route, Switch} from "react-router-dom";
+import Router from "./pages/Router";
+import 'styles/normalize.scss'
+import 'antd/dist/antd.css'
 
 class App extends React.Component<any, any> {
     render() {
         return (
             <div>
-                <LayoutComponent>
-                    <HashRouter>
-                        <switch>
+                <HashRouter>
+                    <Route>
+                        <Switch>
                             <Router/>
-                        </switch>
-                    </HashRouter>
-                </LayoutComponent>
+                        </Switch>
+                    </Route>
+                </HashRouter>
+
             </div>
         )
     }

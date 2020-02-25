@@ -1,0 +1,80 @@
+.sider {
+  overflow: hidden;
+  height: 1000px;
+  position: fixed;
+  left: 0;
+  width: 200px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 21, 41);
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.logo{
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 16px 30px 16px;
+  line-height: 32px;
+  text-align: center;
+  color: lightblue;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.menu{
+  list-style: none;
+  width: 100%;
+  padding-left: 10px;
+  transition: background 0.3s ease 0s, width 0.2s ease 0s;
+}
+
+
+
+.link{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration : none;
+  display: block;
+  height: 40px;
+  &:hover span, &:hover svg{
+    color: #999999;
+  }
+  .itemTitle{
+    margin-left: 25px;
+  }
+  .itemIcon{
+    margin-left: 10px;
+  }
+}
+
+
+.contentHeader{
+  background-color: lightslategrey;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.commentTitle {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.content{
+  margin-top: 20px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .children{
+
+  }
+}
+
+.footer{
+  text-align: center;
+}

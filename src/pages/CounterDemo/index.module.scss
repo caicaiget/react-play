@@ -1,0 +1,17 @@
+
+
+.content{
+    .textOverflow{
+        width: 50px;
+        height: 60px;
+        text-overflow:ellipsis;
+        //white-space: nowrap; // 不换行
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        line-height: 20px;
+        &:hover{
+        }
+    }
+}
